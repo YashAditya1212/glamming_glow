@@ -1,4 +1,4 @@
-# Project: [Your App Name]
+# Project: Glamming_glow
 Home-service beauty booking app.
 
 ## Users
