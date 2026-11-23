@@ -21,3 +21,11 @@ ML assignment, barcode scanning, chat, multiple cities, wallet.
 ## Booking states
 pending → confirmed → en_route → in_progress → completed → rated
 (cancelled can happen from pending or confirmed)
+
+## State rules (who can move a booking)
+- pending → confirmed: ______
+- confirmed → en_route: ______
+- en_route → in_progress: ______ (needs OTP)
+- in_progress → completed: ______
+- completed → rated: ______
+- cancelled: allowed from ______ by ______
