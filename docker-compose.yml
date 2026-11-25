@@ -1,14 +1,14 @@
-servies:
+services:
   db:
     image: postgres:16
-    environement:
+    environment:
       POSTGRES_USER: glow
-      POSTGRES_PASSWORD: glow_dev_pass
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: glamming_glow
     ports:
       - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
+
 volumes:
   pgdata:
-    
